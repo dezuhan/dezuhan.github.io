@@ -19,7 +19,7 @@
 	<div class="hero hero-full flex justify-content-center" style="box-sizing: border-box;">
 		<div class="container">
 			<h6 class="text-align-center">The dezuhan web has moved</h6>
-			<p class="text-align-center"><strong>You will be automatically transferred to <a href="https://dezuhan.vercel.app">dezuhan.vercel.app</a> in <span id="countdown">5</span> second.</strong></p>
+			<p class="text-align-center"><strong>You will be automatically transferred to <a href="https://dezuhan.com">dezuhan.com</a> in <span id="countdown">5</span> second.</strong></p>
 		</div>
 	</div>
 
@@ -28,7 +28,7 @@
 		var downloadTimer = setInterval(function(){
 			if(timeleft <= 0){
 				clearInterval(downloadTimer);
-				window.location.replace("https://dezuhan.vercel.app");
+				window.location.replace("https://dezuhan.com");
 			} else {
 				document.getElementById("countdown").innerHTML = timeleft;
 			}
